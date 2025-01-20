@@ -299,7 +299,6 @@ dialog[open] {
   position: relative;
   overflow: hidden;
   margin-bottom: 5%;
-  mix-blend-mode: difference;
   display: grid;
   grid-template-columns: 0fr 1fr 7fr;
 }
