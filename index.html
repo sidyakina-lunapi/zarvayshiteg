@@ -18,7 +18,7 @@
     <title>Закрывающий тег</title>
   </head>
   <body class="page">
-        <header class="header">
+    <header class="header">
       <div class="header-box-title">
         <h1 class="header-title">Языки<br />программирования</h1>
         <p class="header-paragraph">&lt;Главные особенности&gt;</p>
@@ -204,22 +204,18 @@
       <section class="card card-invert">
         <h2 class="card-section-title">Java</h2>
         <div class="card-image-container">
-          <img
+          <a href="java.html"><img
             src="images/java.png"
             alt="машина в лесу в ночи"
             class="card-image"
-          />
+          /></a>
           <p class="label">&lt;Кофе?&gt;</p>
         </div>
         <p class="card-section-paragraph">
-          На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы
-          понять, как много ещё впереди. Вы могли попытаться погнаться за
-          идеалом и понять, что он недостижим. А, может, вы вовсе и не
-          подвержены перфекционизму и вместо того, чтобы сделать идеально,
-          старались просто сделать.
-        </p>
-        <p class="card-section-paragraph">
-          Место для ваших воспоминаний о начале второго спринта.
+          язык программирования общего назначения со строгой типизацией.
+          Относится к объектно-ориентированному виду. Используется для написания
+          приложений и программных кодов, которые смогут работать на различных
+          платформах.
         </p>
         <div class="flex-card-button">
           <button class="card__icon-button" type="button">
@@ -402,14 +398,36 @@
             Напишите ваши предложения по поводу улучшения сайта
           </h2>
         </div>
-        <form id="feedbackForm"  action="http://mail.ru/scripts/form/script.php" method="post">
+        <form
+          id="feedbackForm"
+          action="http://mail.ru/scripts/form/script.php"
+          method="post"
+        >
           <label for="name" class="button__text">Имя:</label>
-          <input type="text" id="name" name="name" class="input" required placeholder="Даниил Раенко"/>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="input"
+            required
+            placeholder="Даниил Раенко"
+          />
           <label for="email" class="button__text">Email:</label>
-          <input type="email" id="email" name="email" required placeholder="example@mail.ru"/>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="example@mail.ru"
+          />
 
           <label for="message" class="button__text">Сообщение:</label>
-          <textarea id="message" name="message" required placeholder="Ваши идеи"></textarea>
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="Ваши идеи"
+          ></textarea>
 
           <button type="submit" class="button button-dialog">
             <span class="button__text">Отправить</span>
